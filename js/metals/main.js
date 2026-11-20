@@ -1,5 +1,5 @@
 // Point de lancement de l'application et lien vers les événements
-import { getSpot, getMetalHistory } from "./api.js";
+import { getSpot, getMetalHistory } from "../shared/api.js";
 import { calculateValue } from "./calculator.js";
 import { calculateVariation, renderHistoryChart, selectHistoryPoints } from "./history.js";
 import {
